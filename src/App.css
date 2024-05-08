@@ -1,0 +1,23 @@
+/* add your styles here */
+.app {
+    text-align: center;
+  }
+  
+  .app h2 {
+    margin-bottom: 20px;
+  }
+  
+.image-container {
+    margin: 10px;
+}
+  
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+.image-container img {
+    max-width: 100%;  
+    height: auto;  
+}
+  
